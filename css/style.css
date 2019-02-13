@@ -56,8 +56,8 @@ svg:not(:root) {
   width: 350px;
   position: absolute;
   transform: rotate(0deg);
-  -webkit-animation: rotation 10s infinite linear;
-  animation: rotation 10s infinite linear;
+  -webkit-animation: astro-rotation 10s infinite linear;
+  animation: astro-rotation 10s infinite linear;
 }
 
 .section-3-astro-anim {
@@ -225,7 +225,7 @@ p.center-padding {
   text-align: center;
 }
 
-@-webkit-keyframes rotation {
+@-webkit-keyframes astro-rotation {
   from {
     -webkit-transform: rotate(0deg);
   }

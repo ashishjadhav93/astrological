@@ -1,0 +1,120 @@
+
+@media (max-width: 1024px) {
+  .footer-nav li {
+    padding: 0 10px;
+  }
+}
+@media (max-width: 900px) {
+  .footer-nav li {
+    padding: 0 2px;
+  }
+
+  .horoscope-info-1, .horoscope-info-2, .horoscope-info-3 {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .astro-forcast-panel {
+    background-size: 70% 100%;
+  }
+
+  .wrapper {
+    width: 90%;
+    padding: 0 5%;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  img {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .categories_box,.horoscope-info-1, .horoscope-info-2, .horoscope-info-3,.info-child {
+    width: 100%;
+  }
+
+  .h2 {
+    font-size: 20px;
+  }
+
+  .btn-horoscope,.astro-forcast-panel p.center-padding {
+    font-size: 14px;
+  }
+
+  .birth-panel p {
+    font-size: 12px;
+    text-align: left;
+  }
+
+  .birth-panel input[type=date] {
+    float: right;
+    margin-top: -3px;
+    width: 110px;
+  }
+
+  .wrapper {
+    width: 90%;
+    padding: 0 5%;
+  }
+
+  .astro-anim.anim-left, .astro-anim.anim-right,.scroll-down {
+    display: none;
+  }
+
+  .horoscope-info-next,.horoscope-info-prev {
+    position: relative;
+    right: 0;
+    top: 12px;
+    left: 0;
+    text-align: center;
+  }
+
+  .categories_box {
+    text-align: center;
+  }
+
+  .categori_title h3,.categori-text {
+    text-align: left;
+  }
+
+  .footer-nav li {
+    display: block;
+    border-right: 0px solid #fff;
+    padding: 10px;
+  }
+
+  .footer-nav li:last-child {
+  }
+
+  .footer-nav li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 14px;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 5px;
+    font-size: 12px;
+  }
+
+  .footer-nav li a:hover,.footer-nav li a:hover {
+    opacity: 0.6;
+  }
+}
+
+@media (max-width: 640px) {
+  h2.forcast-title {
+    font-size: 20px;
+  }
+
+  .footer-nav li a {
+    font-size: 12px;
+  }
+
+  p.center-padding {
+    padding: 60px 20% 0 20%;
+  }
+
+  .open-horoscope {
+    margin: 0 0 60px 0;
+  }
+}

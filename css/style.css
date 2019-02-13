@@ -1,0 +1,555 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  background: #d767a4;
+  float: left;
+  width: 100%;
+  position: relative;
+}
+
+h2 {
+  font-family: 'Montserrat';
+  font-size: 40px;
+}
+
+a:active,a:hover {
+  outline: 0;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+strong {
+  font-weight: 700;
+}
+
+img {
+  border: 0;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/*section 1 start*/
+.topnavbar {
+  background: url(../images/banner.png) no-repeat center;
+  height: 1000px;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  float: left;
+  width: 100%;
+}
+
+.astro-anim img {
+  height: 350px;
+  width: 350px;
+  position: absolute;
+  transform: rotate(0deg);
+  -webkit-animation: rotation 10s infinite linear;
+  animation: rotation 10s infinite linear;
+}
+
+.section-3-astro-anim {
+  position: absolute;
+  bottom: 0;
+  z-index: 999;
+  height: 600px;
+  right: 0;
+  width: 600px;
+  overflow: hidden;
+    /* background: red; */
+    /* z-index: 9999999; */;
+}
+
+.scroll-down {
+  text-align: center;
+  margin: 30px auto;
+  width: 40px;
+  max-width: 772px;
+}
+
+.scroll-down img {
+  cursor: pointer;
+  -webkit-animation: arrow-up-down 3s infinite;
+  animation: arrow-up-down 3s infinite;
+}
+
+}
+
+@-webkit-keyframes arrow-up-down {
+  from {
+    transform: translate(0,0px);
+  }
+
+  to {
+    transform: translate(0,30px);
+    opacity: 0;
+  }
+}
+
+@keyframes arrow-up-down {
+  from {
+    transform: translate(0,0px);
+  }
+
+  to {
+    transform: translate(0,30px);
+    opacity: 0;
+  }
+}
+
+.section-3-astro-anim img {
+  right: -22%;
+  top: 53%;
+}
+
+.astro-anim.anim-left,.astro-anim.anim-right {
+  position: relative;
+}
+
+.astro-anim.anim-left img {
+  left: -14%;
+  top: -184px;
+}
+
+.astro-anim.anim-right img {
+  right: -14%;
+  top: 78%;
+  overflow: hidden;
+}
+
+.header-logo {
+  text-align: center;
+}
+
+.logo-img {
+  margin-right: 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.logo-img img {
+  height: 70px;
+  float: left;
+}
+
+.logo-txt {
+  line-height: 0;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 60px;
+  display: inline-block;
+}
+
+.astro-forcast-panel {
+  background: url(../images/banner-center-img-1.png) center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  text-align: center;
+  margin: 20px auto;
+  padding: 35px;
+  height: 305px;
+}
+
+.forcast-title {
+  margin-bottom: 25px;
+}
+
+p.center-padding {
+  padding: 0 20% 0 20%;
+  text-align: center;
+  font-weight: 300;
+  font-size: 12px;
+  font-family: 'Montserrat';
+}
+
+.center-padding a {
+  color: #fff;
+  text-decoration: underline;
+  font-size: 12px;
+}
+
+.astro-forcast-panel p.center-padding {
+  text-align: center;
+  padding: 0 15% 0 15%;
+  font-size: 18px;
+}
+
+.birth-panel {
+  margin-top: 25px;
+  margin-bottom: 93px;
+}
+
+.birth-panel input[type=date] {
+  border: 2px solid #ed8aa7;
+  color: #ed8aa7;
+  background-color: #000;
+}
+
+.btn-horoscope {
+  border-radius: 50px;
+  box-shadow: 3px 10px 6px 0 #000000;
+  background-image: linear-gradient(304deg, #cb62a7, #ed8aa7);
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 12px;
+  width: fit-content;
+  text-align: center;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.btn-horoscope img {
+  vertical-align: bottom;
+  margin-left: 9px;
+  width: 20px;
+}
+
+.center-padding span {
+  text-decoration: underline;
+  
+}
+
+.sec-2-horoscope {
+  text-align: center;
+}
+
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(-359deg);
+  }
+}
+/*section 1 end*/
+
+/*section 2 start*/
+.section-2 {
+  background: #2a104e;
+  float: left;
+  width: 100%;
+  margin-bottom: 0;
+  -webkit-transform: skew(0deg, -10deg);
+  transform: skew(0deg, 17deg);
+  margin-top: -230px;
+}
+
+.open-horoscope {
+  margin: 0 0 100px 0;
+  padding: 0;
+  width: 100%;
+  float: left;
+}
+
+.section-2 .wrapper {
+  margin-top: 100px;
+  transform: skew(0deg, -17deg);
+  margin-bottom: 200px;
+}
+
+.categories_box {
+  position: relative;
+  padding: 0;
+  width: 50%;
+}
+
+.categories_box-1 {
+  float: left;
+}
+
+.categories_box-2 {
+  float: right;
+}
+
+.categories_box-2 img {
+  margin: 0px auto;
+  display: block;
+}
+
+.icon_categor {
+  width: 55px;
+  float: left;
+  margin-right: 15px;
+}
+
+.categori_title {
+  width: calc(100% - 60px);
+  margin: 7px 0 0 15px;
+}
+
+.categori_title h3 {
+  color: #cb62a7;
+}
+
+.categori-text {
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 26px;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 772px;
+}
+/*section 2 end*/
+/*section 3 start*/
+.section-3 {
+  background: #d768a4;
+  float: left;
+  width: 100%;
+  margin-bottom: 20px;
+  height: 500px;
+  padding: 155px 0;
+  -webkit-transform: skew(0deg, 17deg);
+  transform: skew(0deg, 17deg);
+  margin-top: -77px;
+  position: relative;
+}
+
+section.section-3:before {
+  content: "";
+  width: 100%;
+  height: 94px;
+  background: #2a104e;
+  position: absolute;
+  transform: skew(0deg, 185deg);
+  z-index: 1;
+  top: -58px;
+  opacity: 0.4;
+}
+
+section.section-3:after {
+  content: "";
+}
+
+section.section-3 .wrapper {
+  transform: skew(0deg, -17deg);
+}
+
+.section-3 h2 {
+  font-size: 19px;
+  font-weight: bold;
+  text-align: center;
+  width: 223px;
+  height: 80px;
+  margin: 0px auto;
+  position: relative;
+}
+
+.section-3 h2:after {
+  content: "";
+  height: 2px;
+  width: 90px;
+  background: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 28%;
+}
+
+.horoscope-step-info {
+  position: relative;
+}
+
+.horoscope-info-1,.horoscope-info-2,.horoscope-info-3 {
+  text-align: center;
+  width: 772px;
+  position: relative;
+}
+
+.info-child {
+  width: 300px;
+}
+
+.horoscope-info-2 .info-child {
+  float: right;
+}
+
+.horoscope-info-3 .info-child {
+  float: left;
+}
+
+.horoscope-info-2 {
+  float: right;
+}
+
+.horoscope-step-info .text-num {
+  font-weight: bold;
+  height: 130px;
+  position: relative;
+}
+
+.horoscope-step-info .text-num span {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  font-size: 70px;
+  right: 100px;
+}
+
+.browser_pop_up {
+  position: fixed;
+  top: 0;
+  left: 0px;
+  right: 0;
+  bottom: 0;
+  z-index: 9999999999;
+  background: rgba(0, 0, 0, 0.6);
+  display: none;
+}
+
+.browser_pop_up_inner.comn {
+  width: 400px;
+  height: 400px;
+  background: #f5f5f5;
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -200px;
+  margin-top: -200px;
+  z-index: 9;
+}
+
+.browser_pop_up_inner.chrome {
+  width: 400px;
+  height: 400px;
+  background: #f5f5f5;
+  text-align: left;
+  position: absolute;
+  top: 0%;
+  margin-left: 0;
+  margin-top: 0;
+  z-index: 9;
+  right: 0;
+}
+
+.browser_pop_up_inner.firefox {
+  width: 400px;
+  height: 400px;
+  background: #f5f5f5;
+  text-align: left;
+  position: absolute;
+  top: 0%;
+  margin-left: 0;
+  margin-top: 0;
+  z-index: 9;
+  right: 0;
+  left: 0;
+}
+
+.pop_up_close {
+  border-radius: 50%;
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 28px;
+  line-height: 30px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  color: #fff;
+  background: #ff0000;
+  z-index: 9;
+  background-image: linear-gradient(304deg, #cb62a7, #ed8aa7);
+}
+
+.pop_up_close a {
+  color: #000;
+}
+
+.pop_up_p {
+  color: red;
+  vertical-align: middle;
+  display: inline-block;
+  text-align: center;
+  margin: 0px auto;
+  padding: 50px 20px;
+}
+
+.horoscope-step-info .horoscope-info-1 .text-num {
+  background: url(../images/sec-3-1.png) no-repeat 50px bottom;
+}
+
+.horoscope-step-info .horoscope-info-2 .text-num {
+  background: url(../images/sec-3-2.png)  no-repeat 50px bottom;
+}
+
+.horoscope-step-info .horoscope-info-3 .text-num {
+  background: url(../images/sec-3-3.png)  no-repeat 50px bottom;
+}
+
+.horoscope-step-info .horoscope-info-title {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.horoscope-step-info .horoscope-info-subtitle {
+  font-size: 24px;
+}
+
+.horoscope-info-next {
+  position: absolute;
+  right: 311px;
+  top: 150px;
+}
+
+.horoscope-info-prev {
+  position: absolute;
+  top: 204px;
+  right: 311px;
+}
+
+/*section 3 end*/
+/*footer start*/
+footer {
+  /* padding: 50px; */
+  background: #2a104e;
+  float: left;
+  width: 90%;
+  padding: 25px 5%;
+  font-size: 14px;
+  margin-top: 255px;
+}
+
+.footer-nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.footer-nav li {
+  display: inline-block;
+  border-right: 1px solid #fff;
+  padding: 0 10px;
+}
+
+.footer-nav li:last-child {
+  border-right: 0px solid #fff;
+}
+
+.footer-nav li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 14px;
+}
+
+.footer-nav li a:hover,.footer-nav li a:hover {
+  opacity: 0.6;
+}
+/*footer end*/
